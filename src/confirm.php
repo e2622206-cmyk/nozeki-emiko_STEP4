@@ -5,6 +5,7 @@ $age = $_POST["age"];
 $phone = $_POST["phone"];
 $email = $_POST["email"];
 $address = $_POST["address"];
+$question = $_POST["question"];
 $gender = $_POST["gender"];
 
 $errors = [];
@@ -49,8 +50,9 @@ if (!empty($errors)) {
     echo "<p>名前 : $name</p>";
     echo "<p>年齢 : $age</p>";
     echo "<p>電話番号 : $phone</p>";
-    echo "<p>メール : $email</p>";
+    echo "<p>メールアドレス : $email</p>";
     echo "<p>住所 : $address</p>";
+    echo "<p>質問 : $question</p>";
     echo "<p>性別 : $gender</p>";
 }
 ?>

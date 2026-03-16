@@ -27,13 +27,18 @@
             </div>
 
             <div class="form-item">
-                <label>メール</label>
+                <label>メールアドレス</label>
                 <input type="email" name="email" id="email">
             </div>
 
             <div class="form-item">
                 <label>住所</label>
                 <input type="text" name="address" id="address">
+            </div>
+
+            <div class="form-item">
+                <label>質問:</label>
+                <input type="text" name="question">
             </div>
 
             <div class="form-item">
