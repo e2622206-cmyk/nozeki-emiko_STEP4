@@ -38,7 +38,7 @@
 
             <div class="form-item">
                 <label>質問:</label>
-                <input type="text" name="question">
+                <input type="text" name="question" id="question">
             </div>
 
             <div class="form-item">
