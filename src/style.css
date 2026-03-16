@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(180deg,#f08a73,#e56a63,#cf4d55);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* フォーム全体 */
+.container {
+    width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #fff8f7;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* タイトル */
+h1 {
+    color: #d34b4b;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* フォーム項目 */
+.form-item {
+    margin-bottom: 20px;
+}
+
+/* ラベル */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7c3a36;
+}
+
+/* 入力欄 */
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #f1c2be;
+    border-radius: 6px;
+    background: white;
+}
+
+/* フォーカス */
+input:focus, select:focus {
+    outline: none;
+    border-color: #f08a73;
+}
+
+/* 送信ボタン（元の青のまま） */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
